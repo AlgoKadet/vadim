@@ -39,8 +39,6 @@ header img {
     left: 80px;
   }
   table {
-    position: relative;
-    left: 120px;
    
     padding: 10px;
     margin: 10px;
@@ -65,11 +63,7 @@ header img {
     height: 100px;
   }
   
-  .img {
-  display: flex;
-  flex-wrap: wrap;
-  
-  }
+
   .img h4 {
     position: relative;
     top: 70px;
@@ -81,7 +75,8 @@ header img {
     left: 20px;
   } 
   .instruct {
-    float: left;
+    display: flex;
+    justify-content: space-around;
   }
   .info {
     width: 300px;
@@ -94,11 +89,8 @@ header img {
     font-size: 20px;
   }
   .zap {
-  float: right;
-    position: relative;
-    bottom: 340px;
-    right: 10px;
-    width: 199px;
+  width: 50%;
+  margin-left: 20px;
   }
   .zap h1 {
     text-align: left;
@@ -125,3 +117,17 @@ header img {
   
   }
   
+  .rasp{
+    display: flex;
+    justify-content: center;
+  }
+
+  .prep{
+    
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .our_inst{
+    width: 50%;
+  }
